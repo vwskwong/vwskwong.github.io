@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moment - React Native Mobile Application</title>
+
+    <!-- Favico -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/Logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/Logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/Logo/favicon-16x16.png">
+    <link rel="manifest" href="../assets/Logo/manifest.json">
+    <link rel="mask-icon" href="../assets/Logo/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/moment.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+
+    <header>
+      <a href="../moment/">
+        <div class="vk-logo">
+          <img src="../assets/triangle-left.svg">
+          <img src="../assets/Main/New_Navigation_Logo.png" width=103 height=46 alt='Vincent Kwong'>
+        </div>
+      </a>
+      
+      <div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="20000">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselIndicators" data-slide-to="4"></li>
+        </ol>
+        
+        <div class="carousel-inner" role="listbox">
+          
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active">
+            <div class="app-header-container">
+              <div style="height: 5%"></div>
+              <div class="app-header">
+                <img class="logo" src="assets/Moment_Logo.png"/>
+                <div class="app-text">
+                  <h3>Moment</h3>
+                  <p>Use your past moments<br/>to better the next</p>
+                </div>
+              </div>
+              <div class="app-header-description">
+                <p class="app-description"><strong>React Native mobile application</strong> that aims to motivate users on their pursuits of passion through periodic notifications of user inputs of their own goals, personal struggles and successes, and inspirational quotes.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item">
+            <div class="carousel-content">
+              <div class="row">
+                <div class="col-6">
+                  <div class="title">
+                    Dashboard
+                  </div>
+                  <div class="text">
+                    Users receive new motivational quotes and lifestyle tips every day! A carousel displays their moments and they can navigate to routes for managing their moments and settings.
+                  </div>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/android/homeScreen.gif"/>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/ios/homeScreen.gif"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item">
+            <div class="carousel-content">
+              <div class="row">
+                <div class="col-6">
+                  <div class="title">
+                    Moments
+                  </div>
+                  <div class="text">
+                    To remind them of their sparks of passion, users can input their goals, inspirational quotes, and their past personal struggles and successes. These entries are stored locally in JSON format and are sent back to the user in periodic notifications to motivate them on their pursuit of passion.
+                  </div>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/android/momentInput.gif"/>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/ios/momentInput.gif"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide Four - Set the background image for this slide in the line below -->
+          <div class="carousel-item">
+            <div class="carousel-content">
+              <div class="row">
+                <div class="col-6">
+                  <div class="title">
+                    Your Moments
+                  </div>
+                  <div class="text">
+                    Users are able to manage their moments by pressing on the desired entry. A collapsible component will be displayed with the option of editing or deleting the entry.
+                  </div>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/android/momentScreen.gif"/>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/ios/momentScreen.gif"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide Five - Set the background image for this slide in the line below -->
+          <div class="carousel-item">
+            <div class="carousel-content">
+              <div class="row">
+                <div class="col-6">
+                  <div class="title">
+                    Settings
+                  </div>
+                  <div class="text">
+                    Users can specify when to start, how often, and when to stop receiving periodic notifications of their moments. Some features including sending feedback and account settings are currently being implemented with AWS.
+                  </div>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/android/settingsScreen.gif"/>
+                </div>
+                <div class="col-3">
+                  <img class="gif" src="assets/ios/settingsScreen.gif"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </header>
+
+    <section class="description">
+      <div class="container-fluid">
+        
+        <div class="row">
+          <div class="title col-3">
+            Behind Moment
+          </div>
+          <div class="text col-9">
+            Remember when that twelve year old thanked you for being a great role model? Remember when you were so sure of your abilities, yet you lost the competition? The overwhelming sense of accomplishment that made you feel as if nothing could stop you. How disappointed you were in yourself and the swearing of redemption. Don't forget these sparks of passion and emotion.
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="title col-3">
+            Technology
+          </div>
+          <div class="text col-9">
+            React Native, Expo XDE, XCode, Android Studio. Looking to add AWS with Node.js
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="title col-3">
+            What's Next?
+          </div>
+          <div class="text col-9">
+            React Native implementation currently on hold. Focus is on <a href='../moment-web/'>React Web app</a> growth and <a href='../grid/'>Grid Mobile</a>.
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
