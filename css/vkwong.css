@@ -82,16 +82,18 @@ h5 {
 
 .main {
     width: 100%;
-    height: auto;
+    height: 80vh;
     margin: 0 auto;
     position: relative;
     background-color: #BEBEBE;
     margin-top: 50px;
-    padding: 100px 60px 50px 60px;
+    padding: 50px 60px;
     background-image: url(assets/Main/main_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    display: flex;
+    align-items: center;
 }
 
 .main-left {
