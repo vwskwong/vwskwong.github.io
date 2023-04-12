@@ -1,150 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-109222638-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-<head>
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109222638-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      gtag('config', 'UA-109222638-1');
+    </script>
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+    <title>Vincent Kwong</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    gtag('config', 'UA-109222638-1');
-  </script>
+    <!-- Favico -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/Logo/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/Logo/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/Logo/favicon-16x16.png" />
+    <link rel="manifest" href="assets/Logo/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="assets/Logo/safari-pinned-tab.svg"
+      color="#5bbad5" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <title>Vincent Kwong</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- Favico -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/Logo/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/Logo/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/Logo/favicon-16x16.png">
-  <link rel="manifest" href="assets/Logo/manifest.json">
-  <link rel="mask-icon" href="assets/Logo/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#ffffff">
+    <!-- LeetCode Icon -->
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
-  <!-- Bootstrap -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-  <!-- LeetCode Icon -->
-  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-
-  <!-- Stylesheet -->
-  <link rel=stylesheet href="css/vkwong.css">
-  <!--
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/vkwong.css" />
+    <!--
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link rel="stylesheet" type="text/css" href="css/hexagons.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/hexagons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous" />
+  </head>
 
-</head>
-
-<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="nav">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#home" style="margin-top:-13px;">
-          <img src="assets/Main/New_Navigation_Logo_Red.png" height=43 alt='Vincent Kwong'>
-        </a>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="nav">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home" style="margin-top: -13px">
+            <img
+              src="assets/Main/New_Navigation_Logo_Red.png"
+              height="43"
+              alt="Vincent Kwong" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#experience">EXPERIENCE</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#skills">SKILLS</a></li>
-          <li><a href="#experience">EXPERIENCE</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#education">EDUCATION</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-        </ul>
+    </nav>
+
+    <!-- Main Page -->
+    <div
+      class="container-fluid main"
+      style="background-image: url(assets/Main/main_background.png)">
+      <div class="col-sm-6 main-left">
+        <div class="main-left-wrapper">
+          <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8" style="text-align: center">
+              <img
+                class="main_logo"
+                src="assets/Main/New_Main_LogoVK_crop.png"
+                alt="Vincent Kwong" />
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+          <div class="row text-center">
+            <div class="links">
+              <a href="https://www.linkedin.com/in/wsvkwong/" target="_blank"
+                ><span
+                  class="hb hb-xs hb-vkwong-inv"
+                  title="LinkedIn"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  ><i class="fab fa-linkedin"></i></span
+              ></a>
+              <a href="https://www.github.com/V-Kwong" target="_blank"
+                ><span
+                  class="hb hb-xs hb-vkwong-inv"
+                  title="GitHub"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  ><i class="fab fa-github"></i></span
+              ></a>
+              <a href="https://leetcode.com/vkwong/" target="_blank"
+                ><span
+                  class="hb hb-xs hb-vkwong-inv"
+                  title="LeetCode"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  ><span
+                    class="iconify"
+                    data-icon="simple-icons:leetcode"
+                    data-inline="false"></span></span
+              ></a>
+              <a href="mailto:wsvkwong@gmail.com"
+                ><span
+                  class="hb hb-xs hb-vkwong-inv"
+                  title="Email"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  ><i class="far fa-envelope"></i></span
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 align="center">
+              Be the person your younger self would look up to.
+            </h3>
+            <a
+              href="https://en.wikipedia.org/wiki/You_(Time_Person_of_the_Year)"
+              target="_blank"
+              ><p
+                align="center"
+                style="margin-bottom: 0; padding-bottom: 0; margin-top: 12px">
+                ⭐ Time's Person of the Year 2006 ⭐
+              </p></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6"></div>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="container-fluid bg-grey text-center">
+      <h2>Beyond the Surface</h2>
+      <br />
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <h3>Mentorship</h3>
+          <p>
+            After overseeing training for the General Training course at
+            Canadian Forces Base Penhold, Cadet Sorenson came up to me and said,
+            “Thank you for these two weeks! You are the best Flight Sergeant!”
+            before running off. That was the proudest moment of my life and the
+            moment I realized what I want to do in this lifetime: positively
+            influence.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Emergence</h3>
+          <p>
+            <a id="to-emergence" href="#projects">Emergence</a> is a lifestyle
+            brand with the vision of inspiring ambitious lifestyles among young
+            adults. Currently, Emergence consists of
+            <a id="to-moment" href="#projects">Moment</a> and
+            <a id="to-grid" href="#projects">Grid</a>, two web and mobile
+            applications in development that aim to increase motivation and
+            mentorship relations among the youth.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Software Engineering</h3>
+          <p>
+            During my first hackathon, I knew I was home. The endless
+            possibilities in programming, the passion filled atmosphere created
+            by programmers of all backgrounds, and of course, the food. Since
+            then, I have developed and shipped several web and mobile
+            applications, although I would love to further expand my technical
+            skillset.
+          </p>
+        </div>
       </div>
     </div>
-  </nav>
 
+    <!-- Skills -->
+    <div id="skills" class="container-fluid text-center">
+      <h2>Technical Skills</h2>
+      <!--    <br>-->
+      <!--    <h4>Scale dictating level of comfortability</h4>-->
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Languages</h3>
+          <br />
 
-  <!-- Main Page -->
-  <div class="container-fluid main" style="background-image: url(assets/Main/main_background.png)">
-    <div class="col-sm-6 main-left">
-      <div class="main-left-wrapper">
-        <div class="row">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-8" style="text-align: center">
-            <img class="main_logo" src="assets/Main/New_Main_LogoVK_crop.png" alt='Vincent Kwong' />
+          <div class="skillbar clearfix" data-percent="90%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>Java</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Comfortable</div>
           </div>
-          <div class="col-sm-2"></div>
-        </div>
-        <div class="row text-center">
-          <div class="links">
-            <a href="https://www.linkedin.com/in/wsvkwong/" target="_blank"><span class="hb hb-xs hb-vkwong-inv" title="LinkedIn" data-toggle="tooltip" data-placement="top"><i class="fab fa-linkedin"></i></span></a>
-            <a href="https://www.github.com/V-Kwong" target="_blank"><span class="hb hb-xs hb-vkwong-inv" title="GitHub" data-toggle="tooltip" data-placement="top"><i class="fab fa-github"></i></span></a>
-            <a href="https://leetcode.com/vkwong/" target="_blank"><span class="hb hb-xs hb-vkwong-inv" title="LeetCode" data-toggle="tooltip" data-placement="top"><span class="iconify" data-icon="simple-icons:leetcode" data-inline="false"></span></span></a>
-            <a href="mailto:wsvkwong@gmail.com"><span class="hb hb-xs hb-vkwong-inv" title="Email" data-toggle="tooltip" data-placement="top"><i class="far fa-envelope"></i></span></a>
-          </div>
-        </div>
-        <div>
-          <h3 align="center">Be the person your younger self would look up to.</h3>
-						<a href="https://en.wikipedia.org/wiki/You_(Time_Person_of_the_Year)" target="_blank"><p align="center" style="margin-bottom: 0;padding-bottom: 0;margin-top: 12px">⭐ Time's Person of the Year 2006 ⭐</p></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6"></div>
-  </div>
 
-  <!-- About -->
-  <div id="about" class="container-fluid bg-grey text-center">
-    <h2>Beyond the Surface</h2>
-    <br>
-    <div class="row slideanim">
-      <div class="col-sm-4">
-        <h3>Mentorship</h3>
-        <p>After overseeing training for the General Training course at Canadian Forces Base Penhold, Cadet Sorenson came up to me and said, “Thank you for these two weeks! You are the best Flight Sergeant!” before running off. That was the proudest moment of my life and the moment I realized what I want to do in this lifetime: positively influence.</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Emergence</h3>
-        <p><a id="to-emergence" href="#projects">Emergence</a> is a lifestyle brand with the vision of inspiring ambitious lifestyles among young adults. Currently, Emergence consists of <a id="to-moment" href="#projects">Moment</a> and <a id="to-grid" href="#projects">Grid</a>, two web and mobile applications in development that aim to increase motivation and mentorship relations among the youth.</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Software Engineering</h3>
-        <p>During my first hackathon, I knew I was home. The endless possibilities in programming, the passion filled atmosphere created by programmers of all backgrounds, and of course, the food. Since then, I have developed and shipped several web and mobile applications, although I would love to further expand my technical skillset.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Skills -->
-  <div id="skills" class="container-fluid text-center">
-    <h2>Technical Skills</h2>
-    <!--    <br>-->
-    <!--    <h4>Scale dictating level of comfortability</h4>-->
-    <div class="row">
-      <div class="col-sm-6">
-        <h3>Languages</h3>
-        <br>
-
-        <div class="skillbar clearfix " data-percent="90%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>Java</span>
-          </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Comfortable</div>
-        </div>
-
-<!--
+          <!--
         <div class="skillbar clearfix " data-percent="50%">
           <div class="skillbar-title" style="background: #000000;">
             <span>C++</span>
@@ -153,32 +247,32 @@
           <div class="skill-bar-percent">Familiar</div>
         </div>
 -->
-        
-        <div class="skillbar clearfix " data-percent="75%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>Go</span>
-          </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Familiar</div>
-        </div>
 
-        <div class="skillbar clearfix " data-percent="75%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>Python</span>
+          <div class="skillbar clearfix" data-percent="75%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>Go</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Familiar</div>
           </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Familiar</div>
-        </div>
 
-        <div class="skillbar clearfix " data-percent="90%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>JavaScript</span>
+          <div class="skillbar clearfix" data-percent="75%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>Python</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Familiar</div>
           </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Comfortable</div>
-        </div>
 
-<!--
+          <div class="skillbar clearfix" data-percent="90%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>JavaScript</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Comfortable</div>
+          </div>
+
+          <!--
         <div class="skillbar clearfix " data-percent="70%">
           <div class="skillbar-title" style="background: #000000;">
             <span>Bash</span>
@@ -195,38 +289,37 @@
           <div class="skill-bar-percent">Familiar</div>
         </div>
 -->
-
-      </div>
-
-      <div class="col-sm-6">
-        <h3>Technologies</h3>
-        <br>
-
-        <div class="skillbar clearfix " data-percent="100%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>Android</span>
-          </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Comfortable</div>
         </div>
 
-        <div class="skillbar clearfix " data-percent="95%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>React</span>
-          </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Comfortable</div>
-        </div>
-        
-        <div class="skillbar clearfix " data-percent="80%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>Git</span>
-          </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Comfortable</div>
-        </div>
+        <div class="col-sm-6">
+          <h3>Technologies</h3>
+          <br />
 
-<!--
+          <div class="skillbar clearfix" data-percent="100%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>Android</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Comfortable</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="95%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>React</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Comfortable</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="80%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>Git</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Comfortable</div>
+          </div>
+
+          <!--
         <div class="skillbar clearfix " data-percent="65%">
           <div class="skillbar-title" style="background: #000000;">
             <span>Node.js</span>
@@ -236,326 +329,593 @@
         </div>
 -->
 
-        <div class="skillbar clearfix " data-percent="55%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>Docker</span>
+          <div class="skillbar clearfix" data-percent="55%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>Docker</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Familiar</div>
           </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Familiar</div>
-        </div>
-        
-        <div class="skillbar clearfix " data-percent="85%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span>AWS</span>
-          </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Comfortable</div>
-        </div>
 
-        <div class="skillbar clearfix " data-percent="55%">
-          <div class="skillbar-title" style="background: #000000;">
-            <span style="font-size: 0.9em;">Machine Learning</span>
+          <div class="skillbar clearfix" data-percent="85%">
+            <div class="skillbar-title" style="background: #000000">
+              <span>AWS</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Comfortable</div>
           </div>
-          <div class="skillbar-bar" style="background: #d32f2f;"></div>
-          <div class="skill-bar-percent">Familiar</div>
-        </div>
 
+          <div class="skillbar clearfix" data-percent="55%">
+            <div class="skillbar-title" style="background: #000000">
+              <span style="font-size: 0.9em">Machine Learning</span>
+            </div>
+            <div class="skillbar-bar" style="background: #d32f2f"></div>
+            <div class="skill-bar-percent">Familiar</div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Experience -->
-  <div id="experience" class="container-fluid bg-grey">
-    <h2 class="text-center">Work Experience</h2>
-    <br />
-    <ul class="timeline">
-      
-      <li class="timeline-event slideanim">
-        <label class="timeline-event-icon"></label>
-        <div class="timeline-event-copy">
-          
-          <p class="timeline-event-thumbnail">Jun 2020 - Aug 2020</p>
-          <br/>
-          <a href="https://www.aboutamazon.com/" target="_blank"><img class="company_logo" src="assets/Experience/amazon.png" alt="Amazon" /></a>
-          <br/>
-          
-          <h5>Software Engineer Intern</h5>
+    <!-- Experience -->
+    <div id="experience" class="container-fluid bg-grey">
+      <h2 class="text-center">Work Experience</h2>
+      <br />
+      <ul class="timeline">
+        <li class="timeline-event slideanim">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Sept 2020 - Apr 2023</p>
+            <br />
+            <a href="https://joindawn.app/" target="_blank"
+              ><img
+                class="company_logo"
+                src="assets/Experience/dawn.svg"
+                alt="Dawn"
+            /></a>
+            <br />
 
-          <p class="employment_desc">•	Created the recommendation system behind the “Popular Items For Your Pet” widget which projects to generate $10 million in revenue</p>
-          
-          <p class="employment_desc">•	Reduced the processing of 730 days of purchase data from 20+ hours to under 4 hours by implementing multiprocessing</p>
+            <h5>Founder</h5>
 
-          <p class="employment_desc">•	Refined product recommendations for over 90% of explicit pet customers by further fine-graining cat and dog recommendations by pet life stage</p>
-            
-          <p class="employment_desc">•	Held virtual office hours and team onboarding calls as the 3rd most senior engineer on a team of 15</p>
-          
-        </div>
-      </li>
-      
-      <li class="timeline-event slideanim">
-        <label class="timeline-event-icon"></label>
-        <div class="timeline-event-copy">
-          
-          <p class="timeline-event-thumbnail">Sept 2019 - Dec 2019</p>
-          <br/>
-          <a href="https://about.linkedin.com/?trk=homepage-basic_directory" target="_blank"><img class="company_logo" src="assets/Experience/linkedin.svg" alt="LinkedIn" /></a>
-          <br/>
-          
-          <h5>Software Engineer Intern</h5>
-          
-          <p class="employment_desc">•	Designed, developed, and deployed a post job application modal that encourages members to partake in skill assessments to help them stand out to recruiters</p>
-          
-          <p class="employment_desc">•	Projected to increase skill assessment participation by 250% and generate upwards of $2 million in annual revenue</p>
-          
-        </div>
-      </li>
-      
-      <br/>
-      
-      <li class="timeline-event slideanim">
-        <label class="timeline-event-icon"></label>
-        <div class="timeline-event-copy">
-          
-          <p class="timeline-event-thumbnail">May 2019 - Aug 2019</p>
-          <br/>
-          <a href="https://www.splunk.com/" target="_blank"><img class="company_logo" src="assets/Experience/Splunk_logo.png" alt="Splunk" /></a>
-          <br/>
-          
-          <h5>Software Engineer Intern – Cloud & Data Platform</h5>
-          
-          <p class="employment_desc">Assisting with the release to general availability of the data ingestion pipelines on the Large Scale Data Collection (LSDC) platform within <a href="https://www.splunk.com/page/signup_short?redirecturl=https://www.splunk.com/en_us/software/splunk-next/thank-you.html" target="_blank">Splunk Investigate</a></p>
-          
-<!--          <p class="employment_desc">•	Identified, created a unit test for, and fixed a race condition that could have occurred when keeping track of the progress made during data ingestion</p>-->
-          
-          <p class="employment_desc">•	Implemented special handling for data ingestion of metrics with delayed availability, reducing data loss to less than 1%</p>
-          
-          <p class="employment_desc">•	Developed checkpoint recovery logic for multi region execution, allowing users to resume data ingestion across regions at the points of failure</p>
-          
-          <p class="employment_desc">•	Spun up a Dockerized mock AWS server in the CI/CD pipeline to mock out API calls for data pipeline functional tests</p>
-          
-        </div>
-      </li>
-      
-      <br/>
+            <p class="employment_desc">
+              • Facilitated more than 5000 connections between over 1300
+              registered users
+            </p>
 
-      <li class="timeline-event slideanim">
-        <label class="timeline-event-icon"></label>
-        <div class="timeline-event-copy">
+            <p class="employment_desc">
+              • Engaged around 100 users for an average of 15 minutes and 52
+              seconds on a daily basis
+            </p>
 
-          <p class="timeline-event-thumbnail">Sept 2018 - Apr 2019</p>
-          <br />
-          <a href="https://www.ge.com/digital/" target="_blank"><img class="company_logo" src="assets/Experience/GE-monogram-Digital.png" alt="General Electric Canada - GE Digital" /></a>
-          <br />
-          <p>Assisted with the release to general availability of <a href="https://docs.predix.io/en-US/content/studio/getting_started/quick_tour/" target="_blank">Predix Studio</a>, GE Digital’s PaaS that enables customers to build and scale their own Industrial IoT applications.</p>
+            <p class="employment_desc">
+              • Rated 5 stars on both the Google Play Store and Apple App Store
+            </p>
 
-          <h5>Security Engineer Intern</h5>
-          <p class="employment_period">Jan 2019 - April 2019</p>
+            <p class="employment_desc">
+              • Designed, programmed, and deployed the entire application with
+              React Native, Google Firebase
+            </p>
 
-          <p class="employment_desc">•	Eliminated final LockPath risks for general availability by deploying <a href="https://wazuh.com/product/" target="_blank">Wazuh</a> Agents and configuring AWS PrivateLinks to secure communication between them and the Predix Wazuh Server as an endpoint security solution with Salt and Terraform</p>
-          <p class="employment_desc">• Mitigated <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project" target="_blank">OWASP Top 10</a> web vulnerabilities by setting up a firewall and logging infrastructure with AWS Web Application Firewall (WAF), Kinesis, S3, Clue, and Athena</p>
-          <p class="employment_desc">• Secured communication between internal build servers and agents through the use of Elastic Load Balancers, VPCs, and SSL</p>
+            <p class="employment_desc">
+              • Developed a recommendation algorithm that matches users based on
+              proximity and similar profile interests
+            </p>
+          </div>
+        </li>
 
-          <h5>Software Development & Cloud Operations Intern</h5>
-          <p class="employment_period">Sept 2018 - Dec 2018</p>
+        <li class="timeline-event slideanim">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Apr 2022 - Jan 2023</p>
+            <br />
+            <a href="https://www.sap.com/canada/about.html" target="_blank"
+              ><img
+                class="company_logo"
+                src="assets/Experience/sap.png"
+                alt="SAP"
+            /></a>
+            <br />
 
-          <p class="employment_desc">•	Enabled cross team retrieval of AWS credentials via SAML through containerization with <a href="https://www.packer.io/" target="_blank">Packer</a> and <a href="https://www.docker.com/" target="_blank">Docker</a></p>
-          
-          <p class="employment_desc">• Set up an alert and escalation management system by utilizing AppDynamics services to monitor cloud infrastructure</p>
+            <h5>Software Engineer</h5>
 
-          <!--          <p class="employment_desc">•	Docker?? AWS CLI?? SAML???</p>-->
+            <p class="employment_desc">
+              • Optimized the number of queries sent by ~60% and the number of
+              React component re-renders by ~85% with the creation of the Filter
+              Apply Selections Button for SAP Stories
+            </p>
+          </div>
+        </li>
 
-        </div>
-      </li>
-    </ul>
-  </div>
+        <li class="timeline-event slideanim">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Jun 2020 - Aug 2020</p>
+            <br />
+            <a href="https://www.aboutamazon.com/" target="_blank"
+              ><img
+                class="company_logo"
+                src="assets/Experience/amazon.png"
+                alt="Amazon"
+            /></a>
+            <br />
 
-  <!-- Projects -->
-  <div id="projects" class="text-center">
-    <div id="first-slider">
-      <h2>Personal Projects</h2>
-      <br>
-      <div id="carousel-example-generic" class="carousel slide carousel-fade">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <!-- Item 1 -->
-          <div class="item active slide1" id="about-moment">
-            <div class="container">
-              <div class="row" data-animation="animated zoomInLeft">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6 col-xs-12">
-                  <img id="moment_logo" src="assets/Projects/Moment_Logo.png" alt="Moment" />
-                </div>
-                <div class="col-sm-3"></div>
-              </div>
-              <div class="row" data-animation="animated fadeInUp">
-                <div class="row text-center">
-                  <div class="col-sm-1"></div>
-                  <div class="col-sm-10 col-xs-12">
-                    <h3>Moment</h3>
-                    <p>Allows users to draw from their own personal struggles and successes to motivate themselves on their pursuits of passion through periodic notifications and user inputs of their own experiences</p>
-                    <p>Rated 3.4 stars in the Google PlayStore with over 3000 downloads!</p>
-                    <p>The Android application is no longer being supported. Moment is currently under redevelopment as both a web app in React and a cross platform mobile app in React Native. Learn more below.</p>
-                    <a href="/moment"><button class="hover-btn">Discover Moment</button></a>
+            <h5>Software Engineer Intern</h5>
+
+            <p class="employment_desc">
+              • Created the recommendation system behind the “Popular Items For
+              Your Pet” widget which projects to generate $10 million in revenue
+            </p>
+
+            <p class="employment_desc">
+              • Reduced the processing of 730 days of purchase data from 20+
+              hours to under 4 hours by implementing multiprocessing
+            </p>
+
+            <p class="employment_desc">
+              • Refined product recommendations for over 90% of explicit pet
+              customers by further fine-graining cat and dog recommendations by
+              pet life stage
+            </p>
+
+            <p class="employment_desc">
+              • Held virtual office hours and team onboarding calls as the 3rd
+              most senior engineer on a team of 15
+            </p>
+          </div>
+        </li>
+
+        <li class="timeline-event slideanim">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Sept 2019 - Dec 2019</p>
+            <br />
+            <a
+              href="https://about.linkedin.com/?trk=homepage-basic_directory"
+              target="_blank"
+              ><img
+                class="company_logo"
+                src="assets/Experience/linkedin.svg"
+                alt="LinkedIn"
+            /></a>
+            <br />
+
+            <h5>Software Engineer Intern</h5>
+
+            <p class="employment_desc">
+              • Designed, developed, and deployed a post job application modal
+              that encourages members to partake in skill assessments to help
+              them stand out to recruiters
+            </p>
+
+            <p class="employment_desc">
+              • Projected to increase skill assessment participation by 250% and
+              generate upwards of $2 million in annual revenue
+            </p>
+          </div>
+        </li>
+
+        <br />
+
+        <li class="timeline-event slideanim">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">May 2019 - Aug 2019</p>
+            <br />
+            <a href="https://www.splunk.com/" target="_blank"
+              ><img
+                class="company_logo"
+                src="assets/Experience/Splunk_logo.png"
+                alt="Splunk"
+            /></a>
+            <br />
+
+            <h5>Software Engineer Intern – Cloud & Data Platform</h5>
+
+            <p class="employment_desc">
+              Assisting with the release to general availability of the data
+              ingestion pipelines on the Large Scale Data Collection (LSDC)
+              platform within
+              <a
+                href="https://www.splunk.com/page/signup_short?redirecturl=https://www.splunk.com/en_us/software/splunk-next/thank-you.html"
+                target="_blank"
+                >Splunk Investigate</a
+              >
+            </p>
+
+            <!--          <p class="employment_desc">•	Identified, created a unit test for, and fixed a race condition that could have occurred when keeping track of the progress made during data ingestion</p>-->
+
+            <p class="employment_desc">
+              • Implemented special handling for data ingestion of metrics with
+              delayed availability, reducing data loss to less than 1%
+            </p>
+
+            <p class="employment_desc">
+              • Developed checkpoint recovery logic for multi region execution,
+              allowing users to resume data ingestion across regions at the
+              points of failure
+            </p>
+
+            <p class="employment_desc">
+              • Spun up a Dockerized mock AWS server in the CI/CD pipeline to
+              mock out API calls for data pipeline functional tests
+            </p>
+          </div>
+        </li>
+
+        <br />
+
+        <li class="timeline-event slideanim">
+          <label class="timeline-event-icon"></label>
+          <div class="timeline-event-copy">
+            <p class="timeline-event-thumbnail">Sept 2018 - Apr 2019</p>
+            <br />
+            <a href="https://www.ge.com/digital/" target="_blank"
+              ><img
+                class="company_logo"
+                src="assets/Experience/GE-monogram-Digital.png"
+                alt="General Electric Canada - GE Digital"
+            /></a>
+            <br />
+            <p>
+              Assisted with the release to general availability of
+              <a
+                href="https://docs.predix.io/en-US/content/studio/getting_started/quick_tour/"
+                target="_blank"
+                >Predix Studio</a
+              >, GE Digital’s PaaS that enables customers to build and scale
+              their own Industrial IoT applications.
+            </p>
+
+            <h5>Security Engineer Intern</h5>
+            <p class="employment_period">Jan 2019 - April 2019</p>
+
+            <p class="employment_desc">
+              • Eliminated final LockPath risks for general availability by
+              deploying
+              <a href="https://wazuh.com/product/" target="_blank">Wazuh</a>
+              Agents and configuring AWS PrivateLinks to secure communication
+              between them and the Predix Wazuh Server as an endpoint security
+              solution with Salt and Terraform
+            </p>
+            <p class="employment_desc">
+              • Mitigated
+              <a
+                href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project"
+                target="_blank"
+                >OWASP Top 10</a
+              >
+              web vulnerabilities by setting up a firewall and logging
+              infrastructure with AWS Web Application Firewall (WAF), Kinesis,
+              S3, Clue, and Athena
+            </p>
+            <p class="employment_desc">
+              • Secured communication between internal build servers and agents
+              through the use of Elastic Load Balancers, VPCs, and SSL
+            </p>
+
+            <h5>Software Development & Cloud Operations Intern</h5>
+            <p class="employment_period">Sept 2018 - Dec 2018</p>
+
+            <p class="employment_desc">
+              • Enabled cross team retrieval of AWS credentials via SAML through
+              containerization with
+              <a href="https://www.packer.io/" target="_blank">Packer</a> and
+              <a href="https://www.docker.com/" target="_blank">Docker</a>
+            </p>
+
+            <p class="employment_desc">
+              • Set up an alert and escalation management system by utilizing
+              AppDynamics services to monitor cloud infrastructure
+            </p>
+
+            <!--          <p class="employment_desc">•	Docker?? AWS CLI?? SAML???</p>-->
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Projects -->
+    <div id="projects" class="text-center">
+      <div id="first-slider">
+        <h2>Personal Projects</h2>
+        <br />
+        <div id="carousel-example-generic" class="carousel slide carousel-fade">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-example-generic"
+              data-slide-to="0"
+              class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <!-- Item 1 -->
+            <div class="item active slide1" id="about-moment">
+              <div class="container">
+                <div class="row" data-animation="animated zoomInLeft">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-6 col-xs-12">
+                    <img
+                      id="moment_logo"
+                      src="assets/Projects/Moment_Logo.png"
+                      alt="Moment" />
                   </div>
-                  <div class="col-sm-1"></div>
+                  <div class="col-sm-3"></div>
+                </div>
+                <div class="row" data-animation="animated fadeInUp">
+                  <div class="row text-center">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10 col-xs-12">
+                      <h3>Moment</h3>
+                      <p>
+                        Allows users to draw from their own personal struggles
+                        and successes to motivate themselves on their pursuits
+                        of passion through periodic notifications and user
+                        inputs of their own experiences
+                      </p>
+                      <p>
+                        Rated 3.4 stars in the Google PlayStore with over 3000
+                        downloads!
+                      </p>
+                      <p>
+                        The Android application is no longer being supported.
+                        Moment is currently under redevelopment as both a web
+                        app in React and a cross platform mobile app in React
+                        Native. Learn more below.
+                      </p>
+                      <a href="/moment"
+                        ><button class="hover-btn">Discover Moment</button></a
+                      >
+                    </div>
+                    <div class="col-sm-1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="item slide2" id="about-grid">
+              <div class="container">
+                <div class="row" data-animation="animated zoomInLeft">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-6 col-xs-12">
+                    <img
+                      id="grid_logo"
+                      src="assets/Projects/Grid_Logo.png"
+                      alt="Grid" />
+                  </div>
+                  <div class="col-sm-3"></div>
+                </div>
+                <div class="row text-center" data-animation="animated fadeInUp">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-8 col-xs-12">
+                    <h3>Grid</h3>
+                    <p>
+                      Passion fuels passion. Utilizing Google's Firebase
+                      Authentication, Realtime Database and Cloud Functions,
+                      Grid aims to increase mentorship relations. User profiles
+                      only consist of a word cloud of their most passionate
+                      subjects. With the Google Maps API, users will be able to
+                      view nearby users' word clouds and connect with them
+                      purely based on passion.
+                    </p>
+                    <a href="grid/"
+                      ><button class="hover-btn">Discover Grid</button></a
+                    >
+                  </div>
+                  <div class="col-sm-2"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="item slide3" id="e_website">
+              <div class="container">
+                <div class="row" data-animation="animated zoomInLeft">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-6 col-xs-12">
+                    <img
+                      id="e_logo"
+                      src="assets/Projects/E_Logo.png"
+                      alt="Emergence" />
+                  </div>
+                  <div class="col-sm-3"></div>
+                </div>
+                <div
+                  class="row"
+                  data-animation="animated fadeInUp"
+                  style="margin: 5%">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-8 col-xs-12">
+                    <h3>Emergence Company Website</h3>
+                    <p>
+                      Animated a one page horizontal scroll website with jQuery,
+                      HTML, CSS, and the pagePiling plugin
+                    </p>
+                    <a href="http://challengegreatness.ca/" target="_blank"
+                      ><button class="hover-btn">Discover Emergence</button></a
+                    >
+                  </div>
+                  <div class="col-sm-2"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="item slide4" id="my_website">
+              <div class="container">
+                <div class="row" data-animation="animated zoomInLeft">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-6 col-xs-12">
+                    <img
+                      id="my_logo"
+                      src="assets/Main/New_Main_LogoVK_crop.png"
+                      alt="Vincent Kwong" />
+                  </div>
+                  <div class="col-sm-3"></div>
+                </div>
+                <div
+                  class="row"
+                  data-animation="animated fadeInUp"
+                  style="margin: 5%">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-8 col-xs-12">
+                    <h3>My Website</h3>
+                    <p>
+                      Created with HTML, CSS, and JavaScript along with the
+                      Bootstrap framework to display my portfolio and apply my
+                      web development skills
+                    </p>
+                  </div>
+                  <div class="col-sm-2"></div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Item 2 -->
-          <div class="item slide2" id="about-grid">
-            <div class="container">
-              <div class="row" data-animation="animated zoomInLeft">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6 col-xs-12">
-                  <img id="grid_logo" src="assets/Projects/Grid_Logo.png" alt="Grid" />
-                </div>
-                <div class="col-sm-3"></div>
-              </div>
-              <div class="row text-center" data-animation="animated fadeInUp">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 col-xs-12">
-                  <h3>Grid</h3>
-                  <p>Passion fuels passion. Utilizing Google's Firebase Authentication, Realtime Database and Cloud Functions, Grid aims to increase mentorship relations. User profiles only consist of a word cloud of their most passionate subjects. With the Google Maps API, users will be able to view nearby users' word clouds and connect with them purely based on passion.</p>
-                  <a href="grid/"><button class="hover-btn">Discover Grid</button></a>
-                </div>
-                <div class="col-sm-2"></div>
-              </div>
-            </div>
-          </div>
-          <!-- Item 3 -->
-          <div class="item slide3" id="e_website">
-            <div class="container">
-              <div class="row" data-animation="animated zoomInLeft">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6 col-xs-12">
-                  <img id="e_logo" src="assets/Projects/E_Logo.png" alt="Emergence" />
-                </div>
-                <div class="col-sm-3"></div>
-              </div>
-              <div class="row" data-animation="animated fadeInUp" style="margin: 5%">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 col-xs-12">
-                  <h3>Emergence Company Website</h3>
-                  <p>Animated a one page horizontal scroll website with jQuery, HTML, CSS, and the pagePiling plugin</p>
-                  <a href="http://challengegreatness.ca/" target="_blank"><button class="hover-btn">Discover Emergence</button></a>
-                </div>
-                <div class="col-sm-2"></div>
-              </div>
-            </div>
-          </div>
-          <!-- Item 4 -->
-          <div class="item slide4" id="my_website">
-            <div class="container">
-              <div class="row" data-animation="animated zoomInLeft">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6 col-xs-12">
-                  <img id="my_logo" src="assets/Main/New_Main_LogoVK_crop.png" alt="Vincent Kwong" />
-                </div>
-                <div class="col-sm-3"></div>
-              </div>
-              <div class="row" data-animation="animated fadeInUp" style="margin: 5%">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 col-xs-12">
-                  <h3>My Website</h3>
-                  <p>Created with HTML, CSS, and JavaScript along with the Bootstrap framework to display my portfolio and apply my web development skills</p>
-                </div>
-                <div class="col-sm-2"></div>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <!-- End Wrapper for slides-->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <i class="fa fa-angle-left"></i><span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
-        </a>
+          <!-- End Wrapper for slides-->
+          <a
+            class="left carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="prev">
+            <i class="fa fa-angle-left"></i
+            ><span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#carousel-example-generic"
+            role="button"
+            data-slide="next">
+            <i class="fa fa-angle-right"></i><span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Education -->
-  <div id="education" class="container-fluid text-center" style="background-image: url(assets/Education/ubc_fountain2.jpg)">
-    <div id="education-layer">
-      <h2>Education</h2>
-      <br>
-      <div class="slideanim">
-        <div class="row">
-          <div class="col-sm-6 col-xs-12">
-            <img id="ubc_logo" src="assets/Education/NarrowSignature_ex_768_v3.png" alt='University of British Columbia' />
+    <!-- Education -->
+    <div
+      id="education"
+      class="container-fluid text-center"
+      style="background-image: url(assets/Education/ubc_fountain2.jpg)">
+      <div id="education-layer">
+        <h2>Education</h2>
+        <br />
+        <div class="slideanim">
+          <div class="row">
+            <div class="col-sm-6 col-xs-12">
+              <img
+                id="ubc_logo"
+                src="assets/Education/NarrowSignature_ex_768_v3.png"
+                alt="University of British Columbia" />
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <img
+                id="ece_logo"
+                src="assets/Education/ECESS_Logo_Black.png"
+                alt="Electrical and Computer Engineering" />
+            </div>
           </div>
-          <div class="col-sm-6 col-xs-12">
-            <img id="ece_logo" src="assets/Education/ECESS_Logo_Black.png" alt="Electrical and Computer Engineering" />
+          <br />
+          <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+              <h3 align="center">
+                <b
+                  >Bachelor of Applied Science in Computer Engineering with
+                  Distinction</b
+                >
+              </h3>
+              <p align="center">3.7 / 4.0 GPA. Dean's Honour List.</p>
+              <p align="center">Sept 2015 – May 2021</p>
+            </div>
+            <div class="col-sm-1"></div>
           </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-sm-1"></div>
-          <div class="col-sm-10">
-            <h3 align="center"><b>Bachelor of Applied Science in Computer Engineering with Distinction</b></h3>
-            <p align="center">3.7 / 4.0 GPA. Dean's Honour List.</p>
-            <p align="center">Sept 2015 – May 2021</p>
+          <div class="row" style="margin-top: 12px">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+              <h3>Notable Courses</h3>
+            </div>
+            <div class="col-sm-2"></div>
           </div>
-          <div class="col-sm-1"></div>
-        </div>
-        <div class="row" style="margin-top: 12px;">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-8">
-            <h3>Notable Courses</h3>
-          </div>
-          <div class="col-sm-2"></div>
-        </div>
 
-        <div class="row" style="margin: 1% 5%">
-          <div class="col-sm-6 col-xs-12">
-            <p>CPEN 331 - Operating Systems</p>
-            <p>CPEN 400A - Modern Web Applications</p>
-            <p>ELEC 331 - Computer Communications</p>
-          </div>
-          <div class="col-sm-6 col-xs-12">
-            <p>CPSC 320 - Algorithm Design and Analysis</p>
-            <p>CPSC 340 - Machine Learning and Data Mining</p>
-						<p>CPSC 425 - Computer Vision</p>
+          <div class="row" style="margin: 1% 5%">
+            <div class="col-sm-6 col-xs-12">
+              <p>CPEN 331 - Operating Systems</p>
+              <p>CPEN 400A - Modern Web Applications</p>
+              <p>ELEC 331 - Computer Communications</p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <p>CPSC 320 - Algorithm Design and Analysis</p>
+              <p>CPSC 340 - Machine Learning and Data Mining</p>
+              <p>CPSC 425 - Computer Vision</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Contact -->
-  <footer id="contact" class="text-center">
-    <h2>Contact</h2>
-    <div style="margin-bottom: 25px;">
-      <a href="mailto:wsvkwong@gmail.com"><p>wsvkwong@gmail.com</p></a>
-    </div>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/wsvkwong/" target="_blank"><span class="hb hb-xs hb-vkwong-inv" title="LinkedIn" data-toggle="tooltip" data-placement="top"><i class="fab fa-linkedin"></i></span></a>
-      <a href="https://www.github.com/V-Kwong" target="_blank"><span class="hb hb-xs hb-vkwong-inv" title="GitHub" data-toggle="tooltip" data-placement="top"><i class="fab fa-github"></i></span></a>
-      <a href="https://leetcode.com/vkwong/" target="_blank"><span class="hb hb-xs hb-vkwong-inv" title="LeetCode" data-toggle="tooltip" data-placement="top"><span class="iconify" data-icon="simple-icons:leetcode" data-inline="false"></span></span></a>
-      <a href="mailto:wsvkwong@gmail.com"><span class="hb hb-xs hb-vkwong-inv" title="Email" data-toggle="tooltip" data-placement="top"><i class="far fa-envelope"></i></span></a>
-    </div>
-    <div style="font-size:12px; margin-top:10px; margin-bottom:10px">© 2020 Vincent Kwong</div>
-  </footer>
+    <!-- Contact -->
+    <footer id="contact" class="text-center">
+      <h2>Contact</h2>
+      <div style="margin-bottom: 25px">
+        <a href="mailto:wsvkwong@gmail.com"><p>wsvkwong@gmail.com</p></a>
+      </div>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/wsvkwong/" target="_blank"
+          ><span
+            class="hb hb-xs hb-vkwong-inv"
+            title="LinkedIn"
+            data-toggle="tooltip"
+            data-placement="top"
+            ><i class="fab fa-linkedin"></i></span
+        ></a>
+        <a href="https://www.github.com/V-Kwong" target="_blank"
+          ><span
+            class="hb hb-xs hb-vkwong-inv"
+            title="GitHub"
+            data-toggle="tooltip"
+            data-placement="top"
+            ><i class="fab fa-github"></i></span
+        ></a>
+        <a href="https://leetcode.com/vkwong/" target="_blank"
+          ><span
+            class="hb hb-xs hb-vkwong-inv"
+            title="LeetCode"
+            data-toggle="tooltip"
+            data-placement="top"
+            ><span
+              class="iconify"
+              data-icon="simple-icons:leetcode"
+              data-inline="false"></span></span
+        ></a>
+        <a href="mailto:wsvkwong@gmail.com"
+          ><span
+            class="hb hb-xs hb-vkwong-inv"
+            title="Email"
+            data-toggle="tooltip"
+            data-placement="top"
+            ><i class="far fa-envelope"></i></span
+        ></a>
+      </div>
+      <div style="font-size: 12px; margin-top: 10px; margin-bottom: 10px">
+        © 2020 Vincent Kwong
+      </div>
+    </footer>
 
+    <!-- Top Button -->
+    <a
+      id="back-to-top"
+      href="#"
+      class="btn btn-primary back-to-top"
+      role="button"
+      title="Return to the top of the page"
+      data-toggle="tooltip"
+      data-placement="left">
+      <span class="glyphicon glyphicon-chevron-up" style="color: #fff"></span>
+    </a>
 
-  <!-- Top Button -->
-  <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" title="Return to the top of the page" data-toggle="tooltip" data-placement="left">
-    <span class="glyphicon glyphicon-chevron-up" style="color:#fff"></span>
-  </a>
-
-
-  <!-- Script -->
-  <script src="js/vkwong.js"></script>
-  <script src="js/hexagons.min.js"></script>
-
-</body></html>
+    <!-- Script -->
+    <script src="js/vkwong.js"></script>
+    <script src="js/hexagons.min.js"></script>
+  </body>
+</html>
